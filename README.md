@@ -4,6 +4,13 @@ Welcome! This repo contains some files to get a spaCy model working for classify
 
 ## Prerequisites
 
+- A python env setup with the following installed:
+    - spaCy
+    - numpy
+    - pandas
+    - scikit-learn
+    - tqdm
+
 ## Setup
 
 1. Download data from Kaggle for the [IMDB 50k Movie Reviews Dataset](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews?select=IMDB+Dataset.csv).
