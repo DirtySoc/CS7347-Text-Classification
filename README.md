@@ -30,5 +30,5 @@ python -m spacy init fill-config ./base_config.cfg ./config.cfg
 python -m spacy train config.cfg --output ./output 
 
 # evaluate trained model
-python -m spacy evaluate .\output\model-best\ .\data\test.spacy -o metrics.json
+python -m spacy evaluate ./output/model-best/ ./data/test.spacy -o metrics.json
 ```
